@@ -1,7 +1,13 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 const Home: React.FC = () => {
-  return <h1>Home boomm</h1>;
+  return (
+    <div>
+      <Nav />
+   
+    </div>
+  )
 };
 
 export default Home;
