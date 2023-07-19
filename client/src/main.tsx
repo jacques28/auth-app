@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 // import App from './App';
 import './index.css';
-import { createBrowserRouter,RouterProvider,Route,Link } from "react-router-dom";
+import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import Home from './pages/Home';
 import NotFind from './pages/NotFind';
 

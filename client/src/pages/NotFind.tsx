@@ -1,7 +1,7 @@
-function NotFind() {
-  return (
-    <div>NotFind</div>
-  )
-}
+import React from 'react';
 
-export default NotFind
+const NotFind: React.FC = () => {
+  return <h1> Not find</h1>;
+};
+
+export default NotFind;
